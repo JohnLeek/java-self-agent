@@ -1,0 +1,42 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Model files (large binaries)
+bge_model/
+
+# Claude Code
+.claude/
+
+# Docs
+docs/
+
+# Java
+*.class
